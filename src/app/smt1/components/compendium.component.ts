@@ -7,7 +7,8 @@ import { FusionDataService } from '../fusion-data.service';
   template: `
     <app-demon-compendium
       [ngClass]="appCssClasses"
-      [hasSettings]="false">
+      [hasSettings]="false"
+      [otherLinks]="[{ title: 'COMP', link: 'comp' }]">
     </app-demon-compendium>
   `,
   styleUrls: [ './compendium.component.css' ],

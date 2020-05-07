@@ -12,6 +12,7 @@ import { SmtFusionTableComponent } from '../compendium/components/smt-fusion-tab
 
 import { TripleFissionTableComponent } from '../compendium/components/tri-fission-table.component';
 import { TripleFusionTableComponent } from '../compendium/components/tri-fusion-table.component';
+import { CompComponent } from './components/comp.component';
 
 const compendiumRoutes: Routes = [
   { path: '', redirectTo: 'demons', pathMatch: 'full' },
@@ -64,6 +65,10 @@ const compendiumRoutes: Routes = [
       {
         path: 'skills',
         component: SkillListContainerComponent
+      },
+      {
+        path: 'comp',
+        component: CompComponent
       }
     ]
   },

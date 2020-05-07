@@ -12,6 +12,7 @@ import { DemonEntryComponent, DemonEntryContainerComponent } from './components/
 import { SpeciesTripleChartComponent } from './components/species-triple-chart.component';
 
 import { CompendiumComponent } from './components/compendium.component';
+import { CompComponent } from './components/comp.component';
 
 @NgModule({
   imports: [
@@ -27,7 +28,8 @@ import { CompendiumComponent } from './components/compendium.component';
     DemonEntryComponent,
     DemonEntryContainerComponent,
     FusionChartContainerComponent,
-    SpeciesTripleChartComponent
+    SpeciesTripleChartComponent,
+    CompComponent
   ],
   exports: [
     CompendiumComponent,
